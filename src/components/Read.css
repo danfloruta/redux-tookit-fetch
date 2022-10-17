@@ -1,0 +1,31 @@
+.tableContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border: 2px solid rgb(83, 107, 180);
+  /* width: 100%; */
+  min-height: 200px;
+}
+
+tr {
+  padding: 1rem;
+  border-bottom: 1px solid #555;
+  color: white;
+}
+
+td {
+  text-align: center;
+  padding-right: 0.5rem;
+  color: white;
+}
+
+tr {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
